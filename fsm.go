@@ -5,7 +5,7 @@ import (
 	"sync"
 )
 
-type Status = string
+type Status = int
 type Option = interface{}
 type ActionFunc func(opts ...Option) (status Status, e error)
 
